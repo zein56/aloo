@@ -28,9 +28,9 @@ function Player(sq){
                 return 0
             }
              setTimeout(function(){
-                     Bot()
+                     
                 },500)
-           
+           Bot()
         }else{
             return 0
         }
