@@ -27,7 +27,10 @@ function Player(sq){
                 },100)
                 return 0
             }
-            Bot()
+             setTimeout(function(){
+                     Bot()
+                },500)
+           
         }else{
             return 0
         }
