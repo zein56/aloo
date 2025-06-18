@@ -27,9 +27,7 @@ function Player(sq){
                 },100)
                 return 0
             }
-             setTimeout(function(){
-                     
-                },500)
+            
            Bot()
         }else{
             return 0
@@ -40,6 +38,8 @@ function Player(sq){
     playerTurn = 1
 }
 function Bot(){
+     setTimeout(function(){
+    },500)
     BestMove(7, true, true);
     PrintBoard();
     if (Result() == 2) {
